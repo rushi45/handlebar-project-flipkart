@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Commissioner", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  padding: 2rem;
+  background: #3f51b5;
+}
+
+.navbar .navlink {
+  font-size: 1rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .navlink:hover {
+  color: #b9bccc;
+  cursor: pointer;
+}
+
+.content-section .products .product-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.7rem;
+  padding: 1rem;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-shadow: 6px 6px 3px #a5a1a1;
+          box-shadow: 6px 6px 3px #a5a1a1;
+}
+
+.content-section .products .product-card .product-img {
+  height: 80%;
+}
+
+.content-section .products .product-card .product-content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.content-section .products .product-card .product-content h1 {
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-section .products .product-card .product-content .product-specs {
+  padding: 1rem;
+  margin-left: 5rem;
+  font-size: large;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=style.css.map */
